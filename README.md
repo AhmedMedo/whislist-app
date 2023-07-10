@@ -2,8 +2,6 @@
 # Steps
 
 
-
-
 ## Installation
 
 after clone the project , Install the project with laravel sail
