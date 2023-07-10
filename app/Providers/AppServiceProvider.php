@@ -20,9 +20,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(ItemServiceInterface::class,ItemService::class);
     }
 
-    /**
-     * Bootstrap any application services.
-     */
+
     public function boot(): void
     {
         Paginator::useBootstrap();
